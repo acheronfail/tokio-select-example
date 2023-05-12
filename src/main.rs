@@ -7,7 +7,7 @@ async fn main() {
 
     match result {
         Ok(_) => unreachable!(),
-        Err(e) => println!("{}", e),
+        Err(e) => println!("error: {}", e),
     }
 }
 
